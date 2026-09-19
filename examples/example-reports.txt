@@ -1,1 +1,50 @@
+VDP-PRO SAFE RECONNAISSANCE REPORT
+Date: 2026-09-19
+Mode: domain
+Target: example.com
+Output: example_output
 
+--- SUBDOMAIN ENUMERATION ---
+Total subdomains: 3
+Resolved hosts: 2
+Live HTTP hosts: 2
+CNAME records: 1
+
+--- HISTORICAL DISCOVERY ---
+Historical URLs: 24
+Parameters: 8
+High-value URLs: 3
+
+--- JAVASCRIPT ---
+JS files: 5
+API paths: 4
+Potential secrets: 0
+
+--- PASSIVE CANDIDATES ---
+Takeover candidates: 0
+Cloud candidates: 2
+
+--- SECURITY HEADERS ---
+CORS wildcard: 0
+CORS credentials: 0
+Security header observations: 2
+
+--- TECHNOLOGY ---
+Apache: 2
+PHP: 2
+
+--- OUTPUT FILES ---
+Subdomains: subenum/all_subs.txt
+Resolved: subenum/resolved_subs.txt
+Live hosts: live/live_hosts_full.txt
+Historical URLs: historical/all_urls.txt
+JS files: js/all_js.txt
+Headers: vulns/missing_headers.txt
+Takeover candidates: vulns/takeover_candidates.txt
+
+Active vulnerability scanning: DISABLED
+Active port scanning: DISABLED
+Active cloud probing: DISABLED
+Active .git/.env probing: DISABLED
+
+Report: reports/summary.txt

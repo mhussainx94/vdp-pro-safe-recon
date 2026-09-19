@@ -1,0 +1,7 @@
+# VDP-PRO Safe Recon Pipeline - Example Scope
+# Authorized targets only.
+# Replace these with domains explicitly included in your authorized scope.
+
+example.com
+www.example.com
+api.example.com
